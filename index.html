@@ -3,61 +3,61 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Biografi</title>
+	<title>Portofolio</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans+Condensed:ital,wght@1,300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1>My Portofolio</h1>
-	<hr>
-	<h3>Biografi</h3>
-	<p>Halo perkenalkan nama saya fahmi oktafian, asal dari madiun, jawa timur. Pekerjaan saat ini sebagai ............... di perusahaan ........... </p>
-	<p>Di perusahaan ....... saya sudah bekerja selama ...tahun sebagai........ yang bertanggung jawab untuk ...........</p>
-	<br>
-	<h3>Skills</h3>
-	<ul>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>JAVASCRIPT</li>
-	</ul>
-	<h3>Other Skills</h3>
-	<ul>
-		<li>Sosial Media Advertising</li>
-		<li>Marketing Online</li>
-		<li>Operate Microsoft</li>
-		<li>Operate Design APP</li>
-	</ul>
-	<h3>Pengalaman Bekerja</h3>
-	<table border="1px" cellspacing="0" cellpadding="3">
-		<tr>
-			<th>No.</th>
-			<th>Nama Perusahaan</th>
-			<th>Posisi</th>
-			<th>Tahun</th>
-			<th>Bidang Usaha</th>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>Assalam Com</td>
-			<td>Admin</td>
-			<td>2015</td>
-			<td>Penjualan Komputer</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>Persada</td>
-			<td>Pegawai Aktif</td>
-			<td>2019</td>
-			<td>Penjualan ATK</td>
-		</tr>
-	</table>
-	<br>
-	<form action="action.php">
-    	<label for="fname">First name:</label>
-    	<input type="text" id="fname" name="fname"><br><br>
-    	<label for="lname">Last name:</label>
-    	<input type="text" id="lname" name="lname"><br><br>
-    	<button type="submit">submit</button>
-	</form>
-	<hr>
-	Copyright @2020, All Right Reserved.
+	<!-- Section Header Start -->
+	<section>
+		<div class="header">
+			<div class="row">
+				<img style="height: 200px;" src="foto.png" alt="">
+				<h1>Fahmi Oktafian</h1>
+				<h3>Student From EduWork</h3>
+				<a href="">Linkedin Profile</a>
+			</div>
+		</div>
+	</section>
+	<!-- Section Header End -->
+	<!-- Section Content Start -->
+	<section>
+		<div class="content">
+			<h1>My Biografi</h1>
+			<p>Halo perkenalkan nama saya fahmi oktafian, asal dari madiun, jawa timur. Pekerjaan saat ini sebagai ............... di perusahaan ........... Di perusahaan ....... saya sudah bekerja selama ...tahun sebagai........ yang bertanggung jawab untuk ...........</p>
+			<div class="row">
+				<div class="left">
+					<h2>Skill Pemrograman Website</h2>
+					<p>Saya menguasai beberapa bahasa pemrograman website seperti HTML, CSS, JAVASCRIPT dan PHP. Dengan menerapkan beberapa bahasa pemrograman tersebut, dapat membuat aplikasi website yang dinamis dan responsiv untuk kebutuhan anda dan bisnis anda.</p>
+				</div>
+				<div class="right">
+					<h2>Sosial Media Advertising</h2>
+					<p>Saya juga menguasai other skill seperti facebook ads, instagram ads, dan google ads. Untuk mendatangkan trafic ke bisnis anda dengan mengimplementasikan 3 platform terbesar di dunia</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Section Content End -->
+	<!-- Section Akhir Start -->
+	<section class="akhir">
+		<div class="contact">
+			<h1>My Contact</h1>
+			<div class="column">
+			    <form action="/action_page.php">
+			        <label for="fname">Email</label>
+			        <input type="text" id="fname" name="firstname" placeholder="Your email..">
+			        <label for="subject">Message</label>
+			        <textarea id="subject" name="subject" placeholder="Write something.." style="height: 170px;"></textarea>
+			        <input type="submit" value="Send">
+			    </form>
+			</div>
+		</div>
+		<hr>
+		<p style="text-align: center; color: #fff;">Copyright @2020, All Right Reserved.</p>
+    </section>
+    <!-- Section Akhir End -->
 </body>
 </html>
