@@ -48,13 +48,13 @@ section{
 	background-color: #fff;
 	/*padding: 10px;*/
 	flex-direction: column;
-	padding-top: 20px; 
+	padding-top: 40px; 
 }
 .content .satu{
 	width: 800px;
 	align-self: center;
 }
-.content h1{
+.content .satu h1{
 	
 }
 .container{
@@ -134,7 +134,78 @@ input[type="submit"]:hover {
 .contact label {
   text-align: left;
 }
-
+.container-satu{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	padding-top: 50px;
+}
+.container-satu .satu h1{
+	font-size: 35px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.container-dua{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: #4a6d70;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	padding-top: 15px;
+	color: #fff;
+	/*text-decoration: none;*/
+}
+.container-dua .side1{
+	flex: 2;
+	/*border: 1px dashed #fff;*/
+}
+.container-dua .side1 h1{
+	text-align: left;
+	padding-left: 30px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.container-dua .side1 p{
+	text-align: left;
+	padding-right: 50px;
+	padding-left: 30px;
+}
+.container-dua .side2{
+	flex: 1;
+	/*border: 1px dashed #fff;*/
+}
+.container-dua .side2 h1{
+	text-align: left;
+	padding-left: 41px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.container-dua .side2 ul li{
+	list-style: none;
+	text-align: left;
+}
+.container-dua .side2 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.container-dua .side3{
+	flex: 1;
+	/*border: 1px dashed #fff;*/
+}
+.container-dua .side3 h1{
+	text-align: left;
+	padding-left: 41px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.container-dua .side3 ul li{
+	list-style: none;
+	text-align: left;
+}
+.container-dua .side3 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
 
 
 
@@ -186,5 +257,30 @@ input[type="submit"]:hover {
 	.akhir .contact #subject{
 		align-self: center;
 		width: 80%;
+	}
+	.container-satu{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.container-dua{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		padding: 0;
+		margin: 0;
+	}
+	.container-dua .side1{
+		/*margin: auto;*/
+		padding-top: 20px;
+		padding-left: 10px;
+	}
+	.container-dua .side2{
+		text-align: left;
+	}
+	.container-dua .side3{
+		padding-bottom: 20px;
 	}
 }
