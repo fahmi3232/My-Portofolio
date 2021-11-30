@@ -1,109 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portofolio</title>
-	<link rel="stylesheet" href="style.css">
+  	<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans+Condensed:ital,wght@1,300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-</head>
-<body>
-	<!-- Section Header Start -->
-	<section>
-		<div class="header">
-			<img style="height: 200px;" src="foto.png" alt="">
-			<h1>Fahmi Oktafian</h1>
-			<p>Student From EduWork</p>
-			<a href="">Linkedin Profile</a>
-		</div>
-	</section>
-	<!-- Section Header End -->
-	<!-- Section Content Start -->
-	<section>
-		<div class="content">
-			<div class="satu">
-				<h1>My Biografi</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex pariatur perferendis dolores debitis qui nobis, quos quisquam. Fugiat sapiente, ea corporis odio! Quibusdam quidem modi at quas obcaecati nulla.</p>
-			</div>
-		</div>
-	</section>
-	<!-- Section Content End -->
-	<!-- Section Sidebar Start -->
-	<section>
-		<div class="container">
-				<div class="left">
-					<h2>Skill Pemrograman Website</h2>
-					<p>Saya menguasai beberapa bahasa pemrograman website seperti HTML, CSS, JAVASCRIPT dan PHP. Dengan menerapkan beberapa bahasa pemrograman tersebut, dapat membuat aplikasi website yang dinamis dan responsiv untuk kebutuhan anda dan bisnis anda.</p>
-				</div>
-				<div class="right">
-					<h2>Sosial Media Advertising</h2>
-					<p>Saya juga menguasai other skill seperti facebook ads, instagram ads, dan google ads. Untuk mendatangkan trafic ke bisnis anda dengan mengimplementasikan 3 platform terbesar di dunia</p>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+
+    <title>Portfolio</title>
+  	</head>
+  	<body>
+	    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+		  	<div class="container">
+			    <a class="navbar-brand fs-5" href="#">Portfolio</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+		    	<div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+		    		<ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5 fs-5">
+					    <li class="nav-item">
+					        <a class="nav-link active" aria-current="page" href="#">Home</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" href="#">Biografi</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" href="#">My Contact</a>
+					    </li>
+					   	<li class="nav-item">
+					        <a class="nav-link" href="">About</a>
+					    </li>
+					</ul>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Section Sidebar End -->
-	<!-- Section Akhir Start -->
-	<section class="akhir">
-		<div class="contact">
-			<h1>My Contact</h1>
-			<div class="column">
-			    <form action="/action_page.php">
-			        <label for="fname">Email</label>
-			        <input type="text" id="fname" name="firstname" placeholder="Your email..">
-			        <label for="subject">Message</label>
-			        <textarea id="subject" name="subject" placeholder="Write something.." style="height: 170px;"></textarea>
-			        <input type="submit" value="Send">
-			    </form>
+		</nav>
+		<div class="container-fluid banner" style="background:linear-gradient(20deg, #5E64EE, #5EEE66);">
+			<div class="container text-center py-5">
+				<img style="height: 200px;" src="foto.png" alt="">
+				<h3 class="fs-9 mt-5 fst-italic">Fahmi Oktafian</h3>
+				<h5 class="display-9 fw-light">Student In Eduwork</h5>
+				<button type="button" class="btn btn-warning mt-4 tombol">Linkedin</button>
 			</div>
 		</div>
-    </section>
-    <!-- Section Akhir End -->
-    <!-- Promo Section Start -->
-    <section>
-    	<div class="container-satu">
-    		<div class="satu">
-    			<h1>Motto</h1>
-    			<p>""Saya meyakini semua orang memiliki keistimewaan. Banyak orang bilang "Tidak ada yang sempurna di dunia ini", memang benar, yang paling sempurna adalah dzat yang maha sempurna yaitu Allah SWT.</p>
-    			<p>Tapi, saya juga meyakini, tidak ada yang tidak sempurna di dunia ini, artinya semua orang punya ciri khas kesempurnaanya masing-masing.</p>
-    			<p>Jadi, tetap optimis, maju terus dan raih impian.""</p>
-    		</div>
-    		<div class="dua">
-    			<img src="success.png" alt="">
-    		</div>
-    	</div>
-    </section>
-    <!-- Promo Section End -->
-    <!-- Section Footer Start -->
-    <section>
-    	<div class="container-dua">
-    		<div class="side1">
-    			<h1>Biodata Singkat</h1>
-    			<p>Nama saya Fahmi Oktafian, asal dari madiun. Harapan saya setelah belajar di Eduwork, saya bisa menguasai pemrograman website dan menjadi Web Developer.</p>
-    		</div>
-    		<div class="side2">
-    			<h1>Tentang</h1>
-    			<ul>
-    				<li><a href="#">Address</a></li>
-    				<li><a href="#">Sosial Media Account</a></li>
-    				<li><a href="#">Email</a></li>
-    				<li><a href="#">No. Telp</a></li>
-    			</ul>
-    		</div>
-    		<div class="side3">
-    			<h1>Info Bisnis</h1>
-    			<ul>
-    				<li><a href="https://okdihost.com">Sewa Hosting</a></li>
-    				<li><a href="https://okdihost.com/jasa-website">Jasa Pembuatan Website</a></li>
-    				<li><a href="https://fahmiokta.my.id">Produk Digital</a></li>
-    			</ul>
-    		</div>
-    	</div>
-		<p style="text-align: center; color: black;">Copyright @2020, All Right Reserved.</p>
-    </section>
-    <!-- Section Footer End -->
-</body>
+		<div class="container mt-5 text-center">
+			<h3 class="fs-3 fw-bold">My Biografi</h3>
+			<p class="fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus animi quae odit nesciunt quasi impedit ea pariatur, nihil provident nobis quis eligendi itaque reprehenderit, ipsam corrupti, tenetur culpa! In, autem!</p>
+			<div class="row mt-5">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h2 class="fs-4">Skill Pemrograman Website</h2>
+					<p class="fs-5">Saya menguasai beberapa bahasa pemrograman website seperti HTML, CSS, JAVASCRIPT dan PHP. Dengan menerapkan beberapa bahasa pemrograman tersebut, dapat membuat aplikasi website yang dinamis dan responsiv untuk kebutuhan anda dan bisnis anda.</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h2 class="fs-4">Sosial Media Advertising</h2>
+						<p class="fs-5">Saya juga menguasai other skill seperti facebook ads, instagram ads, dan google ads. Untuk mendatangkan trafic ke bisnis anda dengan mengimplementasikan 3 platform terbesar di dunia</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid mt-5 mb-5 contact py-4">
+			<h3 class="text-center">My Contact</h3>
+			<div class="card mx-auto" style="width: 400px;">
+				<div class="card-body">
+					<div class="mb-3">
+					  	<label for="exampleFormControlInput1" class="form-label">Email address</label>
+					  	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+					  	<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+					  	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="mt-5">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row p-4 text-center">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<h1>Motto</h1>
+	    				<p>""Saya meyakini semua orang memiliki keistimewaan. Banyak orang bilang "Tidak ada yang sempurna di dunia ini", memang benar, yang paling sempurna adalah dzat yang maha sempurna yaitu Allah SWT.</p>
+	    				<p>Tapi, saya juga meyakini, tidak ada yang tidak sempurna di dunia ini, artinya semua orang punya ciri khas kesempurnaanya masing-masing.</p>
+	    				<p>Jadi, tetap optimis, maju terus dan raih impian.""</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<img src="success1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container-fluid mt-5 bg-dark footer">
+				<div class="container py-5">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-12">
+							<h2>Biodata Singkat</h2>
+	    					<p>Nama saya Fahmi Oktafian, asal dari madiun. Harapan saya setelah belajar di Eduwork, saya bisa menguasai pemrograman website dan menjadi Web Developer.</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12">
+							<h3>Tentang</h3>
+			    			<ul>
+			    				<li><a href="#">Address</a></li>
+			    				<li><a href="#">Sosial Media Account</a></li>
+			    				<li><a href="#">Email</a></li>
+			    				<li><a href="#">No. Telp</a></li>
+			    			</ul>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12">
+							<h3>Info Bisnis</h3>
+			    			<ul>
+			    				<li><a href="https://okdihost.com">Sewa Hosting</a></li>
+			    				<li><a href="https://okdihost.com/jasa-website">Jasa Pembuatan Website</a></li>
+			    				<li><a href="https://fahmiokta.my.id">Produk Digital</a></li>
+			    			</ul>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12">
+							<h3>Company</h3>
+			    			<ul>
+			    				<li><a href="https://okdihost.com">Google Maps</a></li>
+			    				<li><a href="https://okdihost.com/jasa-website">Address</a></li>
+			    				<li><a href="https://fahmiokta.my.id">City</a></li>
+			    			</ul>
+						</div>
+					</div>
+				</div>
+				<p class="py-2" style="text-align: center; color: #fff;">Copyright @2020, <span class="fst-italic">Portfolio</span> All Right Reserved.</p>
+			</div>
+		</footer>
+		
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  	</body>
 </html>

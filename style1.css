@@ -1,0 +1,40 @@
+/*Style*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+p{
+	text-align: justify;
+}
+.banner{
+	
+	padding-top: 8%;
+	padding-bottom: 8%;
+	color: #fff;
+}
+.contact{
+	background:linear-gradient(20deg, #5E64EE, #5EEE66);
+	height: 400px;
+}
+.contact h3{
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+footer{
+	color: #fff;
+}
+footer .footer h3{
+	/*padding-left: 30px;*/
+}
+li{
+	/*list-style: none;*/
+}
+footer .footer ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+span{
+	color: yellow;
+}
