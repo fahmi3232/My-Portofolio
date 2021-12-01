@@ -8,9 +8,8 @@ p{
 	text-align: justify;
 }
 .banner{
-	
-	padding-top: 8%;
-	padding-bottom: 8%;
+	padding-top: 7%;
+	padding-bottom: 7%;
 	color: #fff;
 }
 .contact{
@@ -38,3 +37,14 @@ footer .footer ul li a{
 span{
 	color: yellow;
 }
+
+
+
+/*@media (min-width:500px) and (max-width: 992px){
+	.banner .satu{
+		order: 2; 
+	}
+	.banner .dua{
+		order: 1;
+	}
+}*/
